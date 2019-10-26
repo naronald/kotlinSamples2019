@@ -117,3 +117,5 @@ fun processCA(): Bitmap {
 ````
 @[3](returns a Bitmap instead of having separate draw and get calls)
 
+---
+## Demo
