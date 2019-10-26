@@ -1,5 +1,7 @@
 # Kotlin samples
 
+---
+
 ## AsyncTask
 
 ```kotlin
@@ -21,10 +23,11 @@ private inner class CADrawer : AsyncTask<ElemCA, Void, Bitmap>() {
 @[8-10](once the Bitmap is ready, update the UI)
 
 
+---
 ## Coroutines
 
 ---
-@title[Setting up]
+@title[Setting up coroutines]
 
 ```kotlin
 class MainActivity : AppCompatActivity(), CoroutineScope {
@@ -63,7 +66,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ```
     
 @[5](initialise job)
-@[12](launch some code to be run; no return value apart from job)
+@[12-14](launch some code to be run; no return value apart from job)
 @[14](after this code will continue to run on Main)
 
 
